@@ -96,6 +96,7 @@ yesBtn.addEventListener("click", () => {
     noBtn.style.display = "none";
     yesBtn.style.display = "none";
     minionVideo.style.display = "none"; // la vidéo disparaît
+    question.style.display = "none"; // <-- cache la question
     gif.style.display = "block";
     sound.play();
 
